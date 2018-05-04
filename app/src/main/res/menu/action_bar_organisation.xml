@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/emptyHeart"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="Text to be seen by user"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
+    <item
+        android:id="@+id/solidHeart"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Text to be seen by user"
+        app:showAsAction="always"
+        android:orderInCategory="0"/>
+
+    <item
+        android:id="@+id/locationActionBar"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="Text to be seen by user"
+        app:showAsAction="always"
+        android:orderInCategory="0"
+        />
+
+</menu>
